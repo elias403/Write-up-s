@@ -3,47 +3,47 @@ We see an Apache server and an FTP server. It is possible to enter ftp with **us
 ![nmap](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/1.PNG)
 
 Going to the Browser *http://ip_target* we see a default Apache page, there is a comment in the source code.
-![browser](https://github.com/elias403/Write-up-s/blob/main/images/2.png)
+![browser](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/2.png)
 
 Using **gobuster**, we discovered a hidden directory, with a file called CALL.txt
-![gobuster](https://github.com/elias403/Write-up-s/blob/main/images/3.png)
+![gobuster](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/3.png)
 
 Now we will go to *FTP*
-![ftp, anonymous](https://github.com/elias403/Write-up-s/blob/main/images/4.PNG)
+![ftp, anonymous](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/4.PNG)
 
 With **ls -la** we see that we can * write to the FTP directory * and that it is the same folder where the CALL.txt file is located.
 We can use /usr/share/webshells/php/php-reverse-shell.php
 We just need to change the ip and port before uploading to FTP
 
-![php-reverse-shell](https://github.com/elias403/Write-up-s/blob/main/images/5.PNG)
+![php-reverse-shell](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/5.PNG)
 
 We will send php-reverse-shell.php to the victim via ftp -> ** put xx/php-reverse-shell.php **
-![put_php-reverse-shell](https://github.com/elias403/Write-up-s/blob/main/images/6.PNG)
+![put_php-reverse-shell](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/6.PNG)
 
 Let's open ¹**nc -lnvp 1234** by listening and go to the ?browser to open ³php-reverse-shell.php
-![nc](https://github.com/elias403/Write-up-s/blob/main/images/7.PNG)
-![browser](https://github.com/elias403/Write-up-s/blob/main/images/8.PNG)
-![conexão](https://github.com/elias403/Write-up-s/blob/main/images/9.PNG)
+![nc](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/7.PNG)
+![browser](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/8.PNG)
+![conexão](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/9.PNG)
 
 We found the 1st flag in /home/shrek/user.txt
-![flag1](https://github.com/elias403/Write-up-s/blob/main/images/10.PNG)
+![flag1](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/10.PNG)
 In / home, we see an important.txt file, pointing to "/.runme.sh"
-![runme.sh](https://github.com/elias403/Write-up-s/blob/main/images/11.PNG)
+![runme.sh](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/11.PNG)
 
 Analyzing ¹hash, it is an MD5, we see that it is possibly the credential for ²SSH and also the secret key
 https://www.tunnelsup.com/hash-analyzer/
 https://crackstation.net/
 
-![shrek:hash](https://github.com/elias403/Write-up-s/blob/main/images/12.PNG)
-![ssh](https://github.com/elias403/Write-up-s/blob/main/images/13.PNG)
+![shrek:hash](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/12.PNG)
+![ssh](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/13.PNG)
 
 By providing sudo -l, we can run python with sudo without a password. Going to https://gtfobins.github.io/gtfobins/python/#sudo, we see a way to get a privileged shell.
 
-![sudo-l](https://github.com/elias403/Write-up-s/blob/main/images/14.PNG)
+![sudo-l](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/14.PNG)
 '''
 sudo python -c 'import os; os.system("/bin/sh")'
 '''
 
-![root](https://github.com/elias403/Write-up-s/blob/main/images/15.PNG)
+![root](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/15.PNG)
 
 
