@@ -1,17 +1,17 @@
 <h2>We start with a scan: nmap -A -sC ip
 We see an Apache server and an FTP server. It is possible to enter ftp with **user anonymous**, without a password.</h2>
 
-![nmap](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/1.PNG)</h2>
+![nmap](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/1.PNG)
 
-<h2>Going to the Browser http://ip_target we see a default Apache page, there is a comment in the source code.</h2>
+Going to the Browser http://ip_target we see a default Apache page, there is a comment in the source code.
 
 ![browser](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/2.png)
 
-<h2>Using gobuster, we discovered a hidden directory, with a file called CALL.txt
+Using gobuster, we discovered a hidden directory, with a file called CALL.txt
 
 ![gobuster](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/3.png)
 
-<h2>Now we will go to FTP</h2>
+Now we will go to FTP
 
 ![ftp, anonymous](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/4.PNG)
 
@@ -35,7 +35,7 @@ We found the 1st flag in /home/shrek/user.txt
 
 ![flag1](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/10.PNG)
 
-<h2>In / home, we see an important.txt file, pointing to "/.runme.sh"</h2>
+In /home, we see an important.txt file, pointing to "/.runme.sh"
 
 ![runme.sh](https://github.com/elias403/Write-up-s/blob/main/images/THM%20-%20Basic%20Hack/11.png)
 
