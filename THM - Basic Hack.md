@@ -40,8 +40,11 @@ In /home, we see an important.txt file, pointing to "/.runme.sh"
 ![runme.sh](https://github.com/elias403/Write-up-s/blob/main/images/THM%20-%20Basic%20Hack/11.png)
 
 Analyzing ¹hash, it is an MD5, we see that it is possibly the credential for ²SSH and also the secret key
-https://www.tunnelsup.com/hash-analyzer/
+&nbsp;
+https://www.tunnelsup.com/hash-analyzer/ 
+&nbsp;
 https://crackstation.net/
+&nbsp;
 
 ![shrek:hash](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/12.PNG)
 ![ssh](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/13.PNG)
