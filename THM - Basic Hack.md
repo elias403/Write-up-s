@@ -34,8 +34,10 @@ Let's open ¹**nc -lnvp 1234** by listening and go to the ?browser to open ³php
 We found the 1st flag in /home/shrek/user.txt
 
 ![flag1](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/10.PNG)
-In / home, we see an important.txt file, pointing to "/.runme.sh"
-![runme.sh](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/11.PNG)
+
+<h2>In / home, we see an important.txt file, pointing to "/.runme.sh"</h2>
+
+![runme.sh](https://github.com/elias403/Write-up-s/blob/main/images/THM%20-%20Basic%20Hack/11.png)
 
 Analyzing ¹hash, it is an MD5, we see that it is possibly the credential for ²SSH and also the secret key
 https://www.tunnelsup.com/hash-analyzer/
