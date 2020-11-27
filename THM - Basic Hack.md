@@ -1,5 +1,5 @@
-We start with a scan: **nmap -A -sC ip**
-<h1>We see an Apache server and an FTP server. It is possible to enter ftp with **user anonymous**, without a password.</h1>
+<h1>We start with a scan: **nmap -A -sC ip**
+We see an Apache server and an FTP server. It is possible to enter ftp with **user anonymous**, without a password.</h1>
 
 ![nmap](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/1.PNG)</h1>
 
