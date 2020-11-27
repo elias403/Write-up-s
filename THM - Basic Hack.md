@@ -1,5 +1,6 @@
 We start with a scan: **nmap -A -sC ip**
 We see an Apache server and an FTP server. It is possible to enter ftp with **user anonymous**, without a password.
+
 ![nmap](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/1.PNG)
 
 Going to the Browser *http://ip_target* we see a default Apache page, there is a comment in the source code.
