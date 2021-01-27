@@ -12,7 +12,7 @@ Usando o [cyberchef](https://gchq.github.io/CyberChef/)** ele nos mostra que é 
 ![4](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/4.PNG?raw=true)
 ![5](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/5.PNG?raw=true)
 
-Voltando em inspecionar elemento, substituimos a hash pela senha e apagamos o DISABLED  
+<h3>Voltando em inspecionar elemento, substituimos a hash pela senha e apagamos o DISABLED  </h3>
   
 ![6](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/6.PNG?raw=true)  
 
