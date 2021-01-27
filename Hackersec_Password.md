@@ -14,5 +14,6 @@ Usando o [cyberchef](https://gchq.github.io/CyberChef/)** ele nos mostra que é 
 
 Voltando em inspecionar elemento, substituimos a hash pela senha e apagamos o DISABLED  
   
-![6](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/6.PNG?raw=true)
+![6](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/6.PNG?raw=true)  
+
 ![7](https://github.com/elias403/Write-up-s/blob/main/images/HackerSec/7.PNG?raw=true)
