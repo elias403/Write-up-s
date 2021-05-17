@@ -68,7 +68,7 @@ acessando ela temos um arquivo chamada 1.txt, usando o hashanalyser(https://www.
 
 
 
-<h2>Após fazer login no usuário hackable_3 executaremos o pspy - periodicamente  o root(UID=0) executado "python3 /scripts/to_hackable_3.py", indo até a pasta não existe o arquivo, então basta criarmos um arquivo com o mesmo caminho que será executado pelo root</h2> link pspy:<https://github.com/elias403/Write-up-s/blob/main/images/hackable_III/pspy>
+<h2>Após fazer login no usuário hackable_3 executaremos o pspy - periodicamente  o root(UID=0) executado "python3 /scripts/to_hackable_3.py", indo até a pasta não existe o arquivo, então basta criarmos um arquivo com o mesmo caminho que será executado pelo root</h2> link pspy: encurtador.com.br/gkrx2
 
 <h4>
 atacante: python3 -m http.server
