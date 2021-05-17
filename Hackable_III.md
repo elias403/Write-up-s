@@ -23,7 +23,7 @@ acessando ela temos um arquivo chamada 1.txt, usando o hashanalyser(https://www.
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/5.JPG)
 
 
-<h2>Pesquisando um pouco sobre port knocking nota-se que por default ele vem com as portas 7000,8000,9000 (3 portas são necessárias), seguindo essa lógica temos apenas os valores 1 e 2, existem 3 formas de encontrar o 3 arquivo.</h2>
+<h2>Percebendo que se trata de portas(10000,4444), vem a mente o port knocking, nota-se que por default ele vem com as portas 7000,8000,9000 (3 portas são necessárias), seguindo essa lógica temos apenas os valores 1 e 2, existem 3 formas de encontrar o 3 arquivo.</h2>
 
 <h3>1° FORMA: Fazendo uma varredura de diretórios por extensão(os 2 primeiros eram txt, o 3° não é! por isso sempre faça uma varredura "genérica")</h3>
 
