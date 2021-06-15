@@ -25,7 +25,7 @@ We will send php-reverse-shell.php to the victim via ftp -> ** put xx/php-revers
 
 ![put_php-reverse-shell](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/6.PNG)
 
-Let's open ¹**nc -lnvp 1234** by listening and go to the ?browser to open ³php-reverse-shell.php
+Let's open nc -lnvp 1234 by listening and go to the browser to open php-reverse-shell.php
 
 ![nc](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/7.PNG)
 ![browser](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/THM%20-%20Basic%20Hack/8.PNG)
@@ -39,7 +39,7 @@ In /home, we see an important.txt file, pointing to "/.runme.sh"
 
 ![runme.sh](https://github.com/elias403/Write-up-s/blob/main/images/THM%20-%20Basic%20Hack/11.png)
 
-Analyzing ¹hash, it is an MD5, we see that it is possibly the credential for ²SSH and also the secret key
+Analyzing hash, it is an MD5, we see that it is possibly the credential for SSH and also the secret key
 &nbsp;
 https://www.tunnelsup.com/hash-analyzer/ 
 &nbsp;
