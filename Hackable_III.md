@@ -92,6 +92,7 @@ vítima: <br/>
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/14.JPG)
 
 <h2>Você pode usar a criatividade para conseguir escalar. Outra forma:</h2>
+
 ![img](https://raw.githubusercontent.com/elias403/Write-up-s/main/images/hackable_III/15.JPG)
 
 
